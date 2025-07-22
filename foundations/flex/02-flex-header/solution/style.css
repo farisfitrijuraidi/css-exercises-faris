@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+   display: flex;
+   background-color: #000080;
+   justify-content: space-between;
+   align-items: center;
+   padding: 8px 32px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0, 100%, 99%);
+    padding: 1em;
+}
+
+.logo {
+    color: darkkhaki;
+    font-family: cursive;
+    font-style: italic;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+a:hover {
+  background-color: red;
+}
+
