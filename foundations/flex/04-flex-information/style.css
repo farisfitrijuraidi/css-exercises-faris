@@ -1,7 +1,39 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  /* My Addition */
+  margin: 0;
+  /* text-align: center; */
 }
 
+/* My Addition */
+.top {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+/* My Addition */
+.bottom {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+
+/* My Addition */
+.barberry, .chili,
+.pepper, .saffron {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  /* justify-content: center; */
+  align-items: center;
+  /* gap: 52px; */
+  /* text-wrap: wrap; */
+}
+
+.text {
+  text-align: center;
+}
 img {
   width: 100px;
   height: 100px;
