@@ -5,6 +5,10 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /* My Addition */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
 }
 
 img {
@@ -16,6 +20,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  /* My Addition */
+  padding: 8px 16px;
 }
 
 input {
@@ -23,4 +29,47 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+/* My Addition */
+a {
+  text-decoration: none;
+  color: rgb(102, 102, 102);
+}
+
+/* My Addition */
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+/* My Addition */
+.footer {
+  background-color: #eeeeee;
+}
+
+/* My Addition */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* My Addition */
+.left-links,
+.right-links {
+  display: flex;
+  gap: 16px;
+}
+
+/* My Addition */
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-grow: 1;
 }
